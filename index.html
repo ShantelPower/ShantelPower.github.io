@@ -1,0 +1,111 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title> Shantel's Astonishing Website </title>
+        <style>
+            body {
+                background: rgb(255, 0, 255);
+                color: rgb(0, 0, 0);
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+                margin-bottom:20px;
+            }
+    
+            /* navigation menu */
+            nav {
+                background: rgb(238, 130, 238);
+                margin: 0 auto;
+                margin-bottom:20px;
+                display: flex;
+                padding: 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 80, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+    
+            /* main container area beneath menu */
+            main {
+                background: rgb(0, 48, 225,);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            .interests header {
+                font-size: 1.25em;
+            }
+        </style>
+    </head>
+    <div> <img src=data:image/jpeg;base64,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 </div>
+    </div>        
+    <body>
+        <div id= "all contents">
+            <nav>
+                <header>Shantel's Astonishing Website About Air Quality</header>
+                <ul>
+                    <li><a href="index.html">Home</la></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                 </ul>
+            </nav>
+            
+            <main>
+            </main>
+        </div>
+    </body>
+        <p> Have you ever wondered what happens to the air quality when you use vehicles?</p>     
+        <section class="bad air quality effects">
+            <header>bad air quality effects</header>
+              <ul>
+                <li>respiratory problems</li>
+                <li>respiratory problems in babies when pregnant women are exposed to bad air quality</li>
+                <li>kills wildlife</li>
+              </ul>
+            </section>
+        
+        
+    </body>
+    <div> How do car emissions ruin air quality? </div> 
+        <p> Car emissions export smoke in order to help the car function properly and to get rid of waste. In the smoke, there are chemicals that ruin air quality.</p> 
+        <p> The smoke causes long-term respiratory problems in both humans and wildlife. </p>
+
+
+</html>
+    
+    
+    
+    
+    
+    
+    
+    <p>Shantel Power</p> 
+    <p> Independence High School</p>
